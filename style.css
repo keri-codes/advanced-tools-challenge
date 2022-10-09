@@ -1,0 +1,152 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --site-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--site-font-family) !important;
+  margin-bottom: 80px !important;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 90px !important;
+  font-weight: 700 !important;
+}
+
+h2 {
+  font-size: 44px !important;
+  font-weight: 700 !important;
+}
+
+h3 {
+  font-size: 25px !important;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.nav {
+  margin-bottom: 80px !important;
+}
+
+.nav-title {
+  font-size: 20px !important;
+  margin-right: 50px !important;
+}
+
+.nav-title a {
+  text-decoration: none;
+  color: #000000e6;
+}
+
+.nav-title a:hover {
+  text-decoration: none;
+  color: #000000b3;
+}
+
+.nav-link {
+  font-size: 18px !important;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: #ffffff;
+  border: 1px solid var(--primary-color);
+}
+
+.contact-link:hover {
+  color: var(--primary-color);
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.app-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: #ffffff;
+  padding: 20px 15px;
+  margin: 20px;
+  border-radius: 4px;
+  border: solid 1px var(--primary-color);
+  text-decoration: none;
+}
+
+.app-link:hover {
+  background: #ffffff;
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-link:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.title {
+  margin-left: 20px !important;
+}
+
+.yoga-link,
+.weather-link,
+.yogurt-link {
+  margin: 60px 0 !important;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.about-gallery {
+  margin-bottom: 80px !important;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
