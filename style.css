@@ -150,3 +150,42 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+/***MEDIA QUERIES***/
+@media (max-width: 767px) {
+  .weather-row {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .row.yoga-row,
+  .row.yogurt-row {
+    padding-bottom: 30px !important;
+  }
+  .title {
+    padding-top: 30px !important;
+  }
+  .about-gallery img {
+    padding-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  h3 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 629px) {
+  h1 {
+    font-size: 70px !important;
+  }
+  h2 {
+    font-size: 35px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  h3 {
+    font-size: 18px !important;
+  }
+}
